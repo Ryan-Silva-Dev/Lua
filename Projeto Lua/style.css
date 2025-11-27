@@ -1,8 +1,19 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
-    background-color: black;
+   background-color: black;
+    /*
+    
+    width: 100%;
+    background-image: 
+    linear-gradient(180deg, rgb(0, 0, 0 ), rgb(175, 39, 39)40%, rgba(221, 238, 70, 0.781));
+    background-attachment: fixed; 
+    
+    tentativa de dregadê
+    */
+    
 }
 
 h1{
@@ -30,6 +41,11 @@ p{
     color: rgb(127, 255, 185);
 }
 a{
-    color: rgb(255, 0, 0);
-    text-align: center;
+    color: rgb(251, 255, 0);
+}
+
+.posição{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
