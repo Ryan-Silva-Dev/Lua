@@ -2,129 +2,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    
-   background-color: rgb(41, 41, 41);
-   background-image: url(img/lua-2-scaled.jpg);
-   background-size: auto;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   height: 500px;
+:root{
+    --cor1: #C04BF2;
+    --cor2: #9F2CBF;
+    --cor3: #73168C;
+    --cor4: #281259;
+    --cor5: #1A1440;
+}
+
+
+
+
+body{ 
+   background-color: #030140;
    margin: 0px;
+   padding: 0px;
+}
+header{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    margin: auto;
+    padding: 0px;
     
 }
-main{
-    width: 700px;
-    height: 700px;
+header h1{
+    margin-top: 0px;
+    padding: 20px;
+}
+header h2{
+    margin-bottom: 0px;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+nav{
+    background-color: #000000; 
+    height: 40px;
     padding: 10px;
-    text-align: justify;
-}
-
-/*
-
-queria fazer um mini menu de setas tipo esse da parte superior esqueda do Chrome
-
-
-
-.setas{
-    background-color: rgb(127, 255, 185);
-    text-align: center;
-    border: solid 5px black;
-    border-radius: 40px;
-    width: 50px;
-    height: 22px;
-    display: inline-block;
-}
-.setas>nav>a{
-    color: black;
-    border: none;
     text-align: center;
 }
-.seta-esquerda{
-    transform: rotate(270deg);
-}
-.seta-direita{
-    transform: rotate(90deg);
-}
-
-a{
-    background-color: rgb(127, 255, 185);
-    color: rgb(0, 0, 0);
+nav a{
+    padding: 20px; 
     text-decoration: none;
-    border: 3px outset rgb(64, 136, 95);
-    width: 300px;
+    color: white;
+    
+}
+nav a:hover{
+    background-color: brown;
+    transition: 1s;
     border-radius: 10px;
-}
-a:hover{
-    background-color: rgb(200, 255, 0);
-    border:3px inset rgb(200, 255, 0);
-    
-}
-    
-linha do body
 
-<header class="setas">
-        <nav class="navegação">
-            <a href="#"><img src="img/seta.png" alt="" width="17px" height="17px" class="seta-direita"></a>
-            <a href="#"><img src="img/seta.png" alt="" width="17px" height="17px" class="seta-esquerda"></a>
-        </nav> 
-    </header>
+}
 
 
-*/
 
-h1{
-    font-family: "rock salt", cursive; 
-    font-size: 77px;
-    color: rgb(127, 255, 185);
-    
-    
+
+
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
 }
-h2{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-   
-    font-size: 26px;
-    color: rgb(127, 255, 185);
+main div{
+    background-color: black;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    max-width: 400px;
+    max-height: 500px;
+    min-width: 100px;
+    min-height: 150px;
 }
-h3{
-    color:rgb(127, 255, 155);
-    
+main h3{
+    color: white;
+    background-color: #5F0675;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
 }
-p{
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    
-    font-size: 20px;
-    color: rgb(127, 255, 185);
+main img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;
 }
+main div:hover{
+    background-color: #141ea8;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+
+
+
+
+
+
+
 
 footer{
-    background-color:rgb(127, 255, 185);
-    height: 600px;
-    margin: 160px 0px 500px 0px ;
-    display:flex;
-    justify-content: center;
-    gap: 400px;
-    padding: 10px 0px 0px 0px;
-   
-}
-footer>a{
-    background-color: rgb(127, 255, 185);
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border: 3px solid rgb(64, 136, 95);
-    width: 100px;
-    height: 30px;
-    border-radius: 15px;
+    background-color: #000000;
+    margin: 0px;
+    width: 100%;
     text-align: center;
-    padding: 8px 0px 0px 0px;
+    padding: 5px;
+    flex-grow: 1;
+    
 }
-footer>a:hover{
+footer p{
+    color: white;
     
-    background-color: rgb(200, 255, 0);
-    border:3px solid rgb(158, 202, 0);
+}
+footer a{
+    padding: 10px 10px 0px 10px;
     
+}
 
-}
+
+
