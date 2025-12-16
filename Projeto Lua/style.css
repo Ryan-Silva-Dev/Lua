@@ -1,0 +1,127 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor1: #C04BF2;
+    --cor2: #9F2CBF;
+    --cor3: #73168C;
+    --cor4: #281259;
+    --cor5: #1A1440;
+}
+
+
+
+
+body{ 
+   background-color: #030140;
+   margin: 0px;
+   padding: 0px;
+}
+header{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    margin: auto;
+    padding: 0px;
+    
+}
+header h1{
+    margin-top: 0px;
+    padding: 20px;
+}
+header h2{
+    margin-bottom: 0px;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+nav{
+    background-color: #000000; 
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    padding: 20px; 
+    text-decoration: none;
+    color: white;
+    
+}
+nav a:hover{
+    background-color: brown;
+    transition: 1s;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+}
+main div{
+    background-color: black;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    max-width: 400px;
+    max-height: 500px;
+    min-width: 100px;
+    min-height: 150px;
+}
+main h3{
+    color: white;
+    background-color: #5F0675;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+main img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;
+}
+main div:hover{
+    background-color: #141ea8;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #000000;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    flex-grow: 1;
+    
+}
+footer p{
+    color: white;
+    
+}
+footer a{
+    padding: 10px 10px 0px 10px;
+    
+}
+
+
+
